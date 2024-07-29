@@ -26,7 +26,7 @@ class QuizViewModel(
                     }
                 }
             }.flatten().shuffled(),
-            selectedAnswers = List(quizList.size) { -1 }
+            selectedAnswers = List(quizList.map { it.questions }.flatten().size) { -1 }
         )
     }
 
