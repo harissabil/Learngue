@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Learngue</string>
+    <string name="fileprovider">com.harissabil.learngue.components.fileprovider</string>
+</resources>
